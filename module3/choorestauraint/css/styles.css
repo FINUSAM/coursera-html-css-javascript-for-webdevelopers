@@ -1,0 +1,208 @@
+body{
+    background-color: aliceblue;
+}
+
+.custom-navbar-theme{
+    background-color: #FFA000;
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.custom-navbar-theme > h1, .custom-navbar-logo {
+    float: left;
+    line-height: 60px;
+}
+
+.custom-navbar-logo{
+    height: 80px;
+    width: 80px;
+    margin-right: 15px;
+}
+
+.custom-navbar-theme > h1{
+    font-size: 2.5vw;
+}
+
+.nav-link{
+    font-size: 1.3em;
+    margin: 0px 20px;
+}
+
+.custom-navbar-icons{
+    height: 1.2em;
+    width: 1.8em;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.phone-number{
+    font-size: 1.5em;
+    float: left;
+    margin: 0px 100px;
+    position: relative;
+    top: -15px;
+}
+
+
+
+@media (max-width: 1200px) {
+    .nav-link{
+        margin: 0px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .nav-link{
+        margin: 0px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 991.98px) {
+
+    .custom-navbar-theme > h1{
+        font-size: 3.5vw;
+    }
+    .phone-number{
+        display: none;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 799px) {
+    .custom-navbar-logo{
+        display: none;
+    }
+    .custom-navbar-theme > h1{
+        font-size: 3.5vw;
+    }
+    .phone-number{
+        display: none;
+    }
+}
+
+@media(max-width: 575px) {
+    .custom-navbar-logo{
+        display: none;
+    }
+    .custom-navbar-theme > h1{
+        margin: auto;
+        font-size: 5vw;
+        line-height: 15vw;
+    }
+    .phone-number{
+        display: none;
+    }
+
+}
+
+.custom-jumbotron{
+    padding: 20px 10px;
+}
+
+img{
+    padding: 0;  
+}
+
+#last-img{
+    max-height: 250px !important;
+}
+
+.tile-container{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.tile-name{
+    color: white;
+    font-size: 1.5em;
+    background: rgba(128, 128, 128, 0.6);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+
+@media (min-width: 990px){
+    .tile-img{
+        height: 200px;
+    }
+}
+
+.custom-footer{
+    margin-top: 50px;
+    background-color: grey;
+}
+
+.footer-text{
+    margin: 20px 50px;
+    font-size: 1.4em;
+    color: white;
+    line-height: 1.15em;
+}
+
+blockquote {
+    font-style: italic; /* Make the text italic to indicate it's a quote */
+}
+
+.custom-menu-items{
+    padding: 20px 10px;
+}
+
+
+
+@media (min-width: 360px) and (max-width: 575.98px) {
+    .custom-menu-items{
+        width: 50%;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1199px) {
+    .custom-menu-items{
+        width: 20%;
+    }
+}
+
+.categories-header{
+    padding: 40px 0px 20px;
+    text-align: center;
+}
+
+.categories-text{
+    padding-top: 20px;
+}
+
+.categories-container{
+    padding: 20px 12px;
+}
+
+.categories-img{
+    position: relative;
+}
+
+.number-circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+
+    background: grey;
+    border: 2px solid #666;
+    color: white;
+    text-align: center;
+
+    font: 24px Arial, sans-serif;
+
+    position: absolute;
+    bottom: -20px;
+    right: -10px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .categories-text{
+        padding-top: 10px;
+    }
+    .categories-text > h2{
+        font-size: 1.7em;
+    }
+}
