@@ -1,0 +1,46 @@
+.navbar-brand{
+    padding: 0px;
+}
+
+.navbar-brand-text{
+    color: black;
+    margin: 7px;
+    font-weight: bolder;
+}
+
+.text-center{
+    font-weight: bold;
+}
+
+.item-column{
+    padding: 0px;
+}
+
+.item-container{
+    padding: 15px;
+    margin: 15px 15px 15px 15px;
+    background-color: #aaaaaa;
+}
+
+.navbar-toggle{
+    margin-right: 0px;
+}
+
+#nav-items{
+    width: 100%;
+    text-align: center;
+}
+
+#nav-items a{
+    color: black;
+}
+
+hr{
+    margin: 0px;
+}
+
+@media (max-width: 768px){
+    .navbar-brand{
+        padding: 2px;
+    }
+}
